@@ -8,41 +8,61 @@ body {
   background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
   background-repeat: no-repeat;
-  font-size: 2em;
+  font-size: 23px;
   font-family: 'Source Sans Pro', sans-serif;
   
 }
 
-.profile i {
+.profile-box i {
   color: initial;
-  font-size: .9em;
+  font-size: 30px;
 
 }
 
 #profile-image {
+  display: inline;
   margin: 10px;
   border-radius: 10px;
   height: 100px;
   width: 100px;
 }
 
-.profile {
+.profile-box2 {
+  display: inline-block;
+  text-align: right;
+}
+
+.profile-box4 {
+  text-align: left;
+}
+
+.profile-box {
+/*  border-style: solid;
+  border-radius: 20px;
+  border-width: 20px;
+  border-left-color: rgba(200,230,230,0.2);
+  border-right-color: rgba(200,230,230,0.2);
+  border-top-color: rgba(200,220,220,0.2);
+  border-bottom-color: rgba(200,220,220,0.2);*/
+  margin-top: 10px;
+  border-radius: 20px;
   text-align: center;
   font-weight: bolder;
-  font-size: 1.5em;
+  background-color: rgba(200,220,220,0.2);
+  font-size: 30px;
   font-family: 'Shadows Into Light', cursive;
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .bio {
   margin-top: 10px;
-  border-style: solid;
-  border-right: none;
-  border-left: none;
-  border-bottom: none;
+  border-top-style: solid;
   border-width: 20px;
-  border-color: rgba(200,200,200,0.2);
+  border-color: rgba(200,220,220,0.2);
+  height: 100%;
 
 
 
