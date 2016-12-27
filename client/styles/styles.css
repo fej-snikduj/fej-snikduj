@@ -13,12 +13,20 @@ body {
   
 }
 
-.profile-box i {
+.row {
+  width: 100%;
+}
+.picture-contact-box i {
   color: initial;
   font-size: 30px;
 
 }
 
+.picture-contact-box i:hover {
+  color: rgb(0, 0, 153);
+  font-size: 30px;
+
+}
 #profile-image {
   display: inline;
   margin: 10px;
@@ -36,38 +44,43 @@ body {
   text-align: left;
 }
 
-.profile-box {
-/*  border-style: solid;
-  border-radius: 20px;
-  border-width: 20px;
-  border-left-color: rgba(200,230,230,0.2);
-  border-right-color: rgba(200,230,230,0.2);
-  border-top-color: rgba(200,220,220,0.2);
-  border-bottom-color: rgba(200,220,220,0.2);*/
+.picture-contact-box {
   margin-top: 10px;
   border-radius: 20px;
   text-align: center;
   font-weight: bolder;
-  background-color: rgba(200,220,220,0.2);
+  
   font-size: 30px;
   font-family: 'Shadows Into Light', cursive;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-content: flex-end;
+}
+
+.profile-box {
+  background-color: rgba(200,220,220,0.12);
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .bio {
   margin-top: 10px;
-  border-top-style: solid;
-  border-width: 20px;
-  border-color: rgba(200,220,220,0.2);
   height: 100%;
+  text-align: left;
+  align-self: flex-end;
+  padding: 10px;
 
+}
 
+.content {
+  margin-top: 10px;
+  text-align: center;
+}
 
- padding: 10px;
-
-
-
+.content-1, .content-2, .content-3 {
+  background-color: rgba(200,220,220,0.12);
+  border-radius: 20px;
 }
